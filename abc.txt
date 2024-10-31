@@ -1,0 +1,18 @@
+点赞
+收藏
+git init		在文件夹中初始化一个git隐藏文件
+
+git add abc.txt   提交到暂存区
+git add .			将该文件夹中的东西都提交到暂存区
+
+git commit -m "提交备注内容"
+
+git log        		查看提交信息
+git log --stat		查看每次提交的更改信息（附有每次提交的编号）
+
+git diff 提交的编号	查看提交更改与前一版的差别
+
+git reset --hard 提交的编号	回退版本
+
+可以使用git可视化工具软件，如Pycharm
+
